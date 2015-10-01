@@ -23,6 +23,9 @@ public class Week6
 		else if (userNum == randomNum)
 			System.out.println("Your integer is correct");
 		
+		else
+			System.out.println("Your input is invalid");
+		
 		//Print the random, computer-generated integer
 		System.out.printf("The correct integer is %d", randomNum);
 	}
